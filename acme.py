@@ -13,3 +13,20 @@ class Product:
         self.flammability = float(flammability)
         self.identifier = int(identifier)
 
+    def stealability(self):
+        steal = self.price/self.weight
+        if steal >= 1:
+            return 'Very stealable!'
+        elif steal >= .5:
+            return 'Kinda stealable.' 
+        else:
+            return 'Not so stealable...'
+    
+    def explode(self):
+        splode = self.flammability*self.weight
+        if splode >= 50:
+            return '...BABOOM!!'
+        elif splode >= 10:
+            return '...boom!'
+        else:
+            return '...fizzle.'
