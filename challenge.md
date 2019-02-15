@@ -230,9 +230,16 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+
+# My answer here
+There are 2 things that come to mind. The first is advice on legibility. Is the code that I'm writing able to be interpreted by others. The second execution. If I'm doing something the wrong way, the insight from someone who knows better could be very valuable. 
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+
+# My answer here 
+Containers allow us to have all of the dependencies, and even operating systems in one place. Load up an OS, python 3.x, necessary libraries, and your code, and everything that anyone needs is right there. 
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
