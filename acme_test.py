@@ -38,16 +38,11 @@ class AcmeReportTests(unittest.TestCase):
         prods = acme_report.generate_products()
         adj_list = ['Awesome', 'Shiny', 'Impressive', 'Portable', 'Improved']
         noun_list = ['Anvil', 'Catapult' 'Disguise' 'Mousetrap', '???']
-        #for i in range(len(prods)):
-            print('loop ',i)
+        for i in range(len(prods)):
             p_name = prods[i].name
             split_list = p_name.split()
             self.assertIn(split_list[0],adj_list)
             self.assertIn(split_list[1],noun_list)
-
-    
- 
-
 
 if __name__ == '__main__':
     unittest.main()
